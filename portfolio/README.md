@@ -175,3 +175,4 @@ CONTACT_FORM_API=your-api-endpoint
 ---
 
 Built with ❤️ using Next.js and Tailwind CSS
+# Force rebuild
