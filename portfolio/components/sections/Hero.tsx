@@ -95,17 +95,14 @@ export function Hero({ name, title, tagline, photoUrl, ctaButtons }: HeroProps) 
                 
                 {/* Photo with next/image optimization */}
                 <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-white/10">
-                  <div className="relative w-full h-full">
-                    <Image
-                      src={photoUrl}
-                      alt={name}
-                      fill
-                      className="object-cover"
-                      style={{ objectPosition: 'center top' }}
-                      priority
-                      sizes="320px"
-                    />
-                  </div>
+                  <Image
+                    src={photoUrl}
+                    alt={name}
+                    width={304}
+                    height={304}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
                 </div>
               </div>
             </div>
